@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ascii Art Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <form method="POST" action="/asciiart">
+    <div>
+      <h1 class="h1">Ascii Art Generator</h1>
+    </div>
+
+    <div class="textarea">
+      <textarea id="message" cols="120" rows="10" name="text" required placeholder="Enter your text here !"></textarea>
+    </div>
+
+    <div class="buttons">
+      <input type="radio" id="Standard" name="banner" value="standard" checked required />
+      <label for="Standard">Standard</label>
+
+      <input type="radio" id="Shadow" name="banner" value="shadow" required />
+      <label for="Shadow">Shadow</label>
+
+      <input type="radio" id="ThinkerToy" name="banner" value="thinkertoy" required />
+      <label for="ThinkerToy">ThinkerToy</label>
+    </div>
+
+    <button class="generate-button">Generate</button>
+  </form>
+
+
+  
+  </div>
+</body>
+
+</html>

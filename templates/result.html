@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ascii Art Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <h1 class="h1">ASCII Art Result</h1>
+        </header>
+        <textarea  rows="120" cols="120" readonly class="output" wrap="off" >{{.}}</textarea>
+        <br></br>
+        <input type="button" class="generate-button" value="Go Back" onclick="window.location.href='/';">
+    </div>
+</body>
+
+</html>
